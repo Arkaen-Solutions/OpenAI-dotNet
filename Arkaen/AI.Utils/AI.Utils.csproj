@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="OpenAI\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\OpenAI_API\OpenAI_API.csproj" />
+  </ItemGroup>
+
+</Project>
